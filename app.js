@@ -114,3 +114,10 @@ function againGame() {
         el.classList.remove('up')
     });
 }
+
+function WinTheGame() {
+    setInterval(() => {
+        let circle = document.querySelector(".circle");
+        if (circle) circle.click();
+    },5)
+}
